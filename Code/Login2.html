@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<title>FABILE</title>
+
+<!-- Meta Tags -->
+<meta name="Author" content="John Errol Dela Cruz">
+<meta name="Description" content="Prelim, FABILE">
+
+
+<!-- This is my favicon to put my logo on tab -->
+<link rel="icon" href="C:\Users\Acer\Desktop\Lyka\JOHN ERROL\Errol\Prelimhtml\favicon.png"></link>
+<link rel="StyleSheet" href="Loginstyle.css">
+
+<!-- All my CSS and design for textbox and button -->
+<style>
+
+</style>
+
+<!-- This is for my logo image -->
+<img src="images\logo.png"  width="130px" height="130px" style="float:left; padding-left:px;" >
+
+
+<head>
+<body Text="white" background = "images\hahaha3.jpg" style="background-repeat:no-repeat; background-size:100%">
+ 
+ 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class=Regis>
+<P>LOG IN</P>
+</div>
+
+
+
+  <!-- All my textbox,Radio,Option,Checkbox -->
+<form>
+  <div class="Space">
+    <br>
+    <br>
+
+    <!-- Input for LastName to find out who ordered -->
+<label for="UserName">User Name:</label><br>
+<input type="text" id="UserName" size="40"></input>
+
+<br>
+<br>
+
+ <!-- Input for FirstName to find out who ordered -->
+<label for="Password">Password:</label><br>
+<input type="password" id="Password" size="40"></input>
+  </div>
+</form>
+
+<br>
+<br>
+<br>
+
+<!-- button for create account-->
+
+  <button class="Button1" type="submit" id="btnLogin" onclick="login()">log in</button>
+  <button class="Button2" type="button" id="cancelbtn" onclick="cancelbtn()">Cancel</button>
+
+  
+
+    <script >
+      let uname,upass
+
+function login(){
+uname=document.getElementById("UserName").value
+upass=document.getElementById("Password").value
+if(uname=="" || upass==""){
+window.alert("Enter Username or Password.");
+}else{
+
+
+if(uname=="Admin" && upass=="123"){
+location.href = "Admin2.html";
+}else{
+window.alert("Invalid Login");
+}
+}
+}
+
+function cancelbtn(){
+window.alert("This is programmed by: \n John Errol DEla Cruz");
+//point to homepage
+}
+  </script>
+
+</body>
+</head>
+</html>

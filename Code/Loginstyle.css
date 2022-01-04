@@ -1,0 +1,74 @@
+input[type=text] {
+    padding: 5px 10px;
+    margin:  0;
+    box-sizing: border-box;
+    border:none;
+    /*border: 1px solid rgb(167, 217, 236);*/
+    border-bottom: 1px solid rgb(95, 212, 233);
+    background:transparent;
+    color:rgb(255, 255, 255);
+  }
+  input[type=Password] {
+    padding: 5px 10px;
+    margin:  0;
+    box-sizing: border-box;
+    border:none;
+    /*border: 1px solid rgb(167, 217, 236);*/
+    border-bottom: 1px solid rgb(95, 212, 233);
+    background:transparent;
+    color:rgb(255, 255, 255)
+  }
+    .Space{
+      line-height:1.5;
+      font-size:13px;
+      font-family: verdana;
+      padding-left:130px;
+      color:rgb(255, 255, 255);
+    }
+    .Button1{
+      background-color: #3fabd6;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+    font-family: verdana;
+    }.Button1:hover{
+      background-color: rgb(231, 87, 87);
+    }
+    .Button2{
+      background-color: #3fabd6;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-family: verdana;
+    } .Button2:hover{
+      background-color: rgb(231, 87, 87);
+    }
+   
+   .Regis{
+      font-size:20px;
+      font-family: verdana;
+      padding-left:250px;
+      line-height:5px;
+    }
+    .Regis2{
+      font-size:13px;
+      font-family: verdana;
+      padding-left:226px;
+      color:rgb(159, 224, 240);
+      line-height:5px;
+    }
+    

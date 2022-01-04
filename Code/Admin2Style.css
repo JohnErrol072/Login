@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(38, 47, 65);
+}
+ul {
+    font-family: verdana;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    width:100%;
+    border: 0px;
+    background: #3fabd6; 
+  }
+
+  li {
+    float: left; 
+  }
+  
+  li a {
+      font-size:20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }li a:hover{
+      color: rgb(6, 255, 243);
+  }
+  .Button1{
+    background-color: #3fabd6;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px;
+  cursor: pointer;
+  }
+  .Button1:hover{
+    color: rgb(6, 255, 243);
+  }
+  var{
+      color: darkgrey;
+  }
